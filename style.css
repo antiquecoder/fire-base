@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  #hero {
+    text-align: center;
+    color:green;
+
+  }
+  
+  #hero img {
+    width: 400px;
+  }
+  
+  #about {
+    font-size: 16px;
+  }
+  
+  #portfolio {
+    list-style: none;
+  }
+  
+  #portfolio li {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #portfolio li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #portfolio li img {
+    width: 200px;
+  }
+  
+  #contact {
+    text-align: center;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    color: #aaa;
+  }
+  
